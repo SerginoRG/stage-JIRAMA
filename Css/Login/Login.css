@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    /* background-color: #FAFAFA; */
+    
+        background-image: url('CMS.png');
+        
+    background-size: 700px 700px; /* Largeur et hauteur fixées */
+    background-repeat: no-repeat;
+    
+    
+    /* background: linear-gradient(to right, #e2e2e2, #c9d6ff) ; */
+} 
+.container{
+    background: #fff;
+    margin-top: 6%;
+    margin-left: 50%;
+    width: 450px;
+    padding: 1.5rem;
+    /* margin: 50px auto; */
+    border-radius: 10px;
+    box-shadow: 0 20px 35px rgba(0, 0, 1, 0.9) ;
+}
+form{
+    margin: 0 2rem;
+}
+.form-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 1.3rem;
+    margin-bottom: 0.4rem;
+}
+
+label{
+    font-size: 14px;
+    font-weight: 500;
+    color: #2e2e2e;
+}
+input{
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.13);
+    padding: 0 15px;
+    /* modifier va */
+    height: 42px; 
+    margin: 8px 0;
+}
+#select{
+    width: 100%;
+    padding: 10px;
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+    
+    font-size: 1em;
+    color: #333;
+    
+}
+
+/* Style spécifique pour les menus déroulants */
+#select {
+    appearance: none;
+    background-color: #fff;
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"%3E%3Cpath fill="%23aaa" d="M7 10l5 5 5-5z"/%3E%3C/svg%3E');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.13); */
+    padding-right: 30px;
+    
+}
+
+
+.btn{
+    font-size: 1.1rem;
+    padding: 8px 0;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    width: 100%;
+    background: rgb(125, 125, 235);
+    color: white;
+    cursor: pointer;
+    transition: 0.9s;
+}
+
+.btn:hover{
+   background: #07001f; 
+}
+
+.or{
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.icons{
+    text-align: center;
+}
+.icons i{
+    /* color: rgb(125, 125, 235); */
+    color: black;
+    padding: 0.8rem 1.5rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+   
+    cursor: pointer;
+    border: 2px solid #dfe9f5;
+    margin: 0 25px;
+    transition: 1s;
+}
+
+.icons i:hover{
+    background: #dfe9f5;
+    font-size: 1.6rem;
+    border: 2px solid rgb(125, 125, 235);
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 4rem;
+    margin-top: 0.9rem;
+    font-weight: bold;
+}
+
+button{
+    /* color: rgb(125, 125, 235); */
+    color: green;
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+button:hover{
+    text-decoration: underline;
+    color: blue;
+}
